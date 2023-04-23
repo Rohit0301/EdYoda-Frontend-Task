@@ -1,0 +1,20 @@
+.header{
+    padding: 16px 4rem;
+    background-color: var(--background-blue);
+    display: flex;
+    align-items: flex-end;
+    column-gap: 2.5rem;
+    position: relative;
+}
+
+.course{
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.title {
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+}

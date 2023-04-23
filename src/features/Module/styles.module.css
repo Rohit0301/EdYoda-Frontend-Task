@@ -1,0 +1,9 @@
+.module{
+    height: 100vh;
+    display: flex;
+}
+.module_main{
+    padding: 4rem;
+    width: 100%;
+    overflow-y: scroll;
+}

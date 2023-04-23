@@ -1,0 +1,134 @@
+.head{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 8px;
+    border-radius: 6px;
+    background: white;
+    padding: 1.5rem 3rem;
+    display: flex;
+    width: max-content;
+    border: 1px solid var(--sky-blue);
+}
+
+.img{
+    width: 4.5rem;
+    height: 4.5rem;
+    margin: auto 0;
+}
+
+.sec_1{
+    margin-left: 1.5rem;
+}
+
+.attempt{
+    width: max-content;
+    background-color: #e9e9e9ad;
+    padding: 4px 30px;
+    border-radius: 4px;
+    display: flex;
+}
+
+.attempt_lft{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    padding-right: 8px;
+    border-right: 1px solid #bcbcbc;
+    color: #6e6e6e;
+}
+
+.attempt_rgt{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    padding-left: 8px;
+    color: #6e6e6e;
+}
+
+.name{
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 8px 0;
+    width: 160px;
+    line-height: 1.6rem;
+    color: #333;
+}
+
+.completed{
+    width: max-content;
+    background-color: #05acff40;
+    width: max-content;
+    padding: 4px 8px;
+    border-radius: 1rem;
+    display: flex;
+}
+
+.completed_lft{
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding-right: 8px;
+    border-right: 1px solid #bcbcbc;
+    color: #6e6e6e;
+}
+
+.completed_rgt{
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding-left: 8px;
+    color: #6e6e6e;
+}
+
+.sec_2{
+    margin-left: 6rem;
+}
+
+.rounds{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    row-gap: 12px;
+    margin-top: 12px;
+}
+
+.chip{
+    text-transform: uppercase;
+    background-color: rgb(217 219 255);
+    padding: 3px 12px;
+    border-radius: 1rem;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.structure{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.btn{
+    margin: auto 0;
+    margin-left: 6rem;
+    margin-right: 2rem;
+    padding: 8px 29px;
+    background: white;
+    border: 2px solid #4fb8e3;
+    color: #4fb8e3;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}

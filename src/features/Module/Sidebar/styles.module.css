@@ -1,0 +1,26 @@
+.menu{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 8px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.menu_text{
+    color: #575656;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.sidebar{
+    width: max-content;
+    height: 100%;
+    max-width: 240px;
+    background-color: #dbdff5;
+    padding-top: 4px;
+}
+.selected_menu{
+    background-color: #c5c8dc;
+    font-weight: bold;
+}   
